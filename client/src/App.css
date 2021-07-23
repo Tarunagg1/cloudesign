@@ -1,0 +1,50 @@
+.mainview {
+  display: flex;
+  margin-top: 1rem;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.mainview .column {
+  width: 30%;
+}
+.mainview .droppable-col {
+  width: 100%;
+  padding: 10px 10px 0 10px;
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  float: right;
+}
+.item {
+  width: 90%;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  padding: 5px;
+  /* border-right: 5px; */
+}
+
+.mainItem p{
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.deleteBox {
+  background-color: black;
+  width: 15%;
+  color: white;
+  height: 10%;
+  position: absolute;
+  bottom: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
